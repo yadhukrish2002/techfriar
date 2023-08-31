@@ -1,5 +1,5 @@
 body{
-    background:repeating-linear-gradient(rgb(46, 51, 58), 21%,rgb(0, 0, 0),rgb(46, 51, 58));
+    background:repeating-linear-gradient(rgb(46, 51, 58) 5%, 21%,rgb(0, 0, 0),rgb(46, 51, 58));
     color: white;
     
 }
@@ -25,8 +25,7 @@ body{
     border-radius: 25px;
     gap: 70px;
     background: #2E333A;
-    box-shadow: -7px -7px 30px 0px #262E32;
-    box-shadow: 14px 14px 40px 0px #101012BF;
+    box-shadow: -7px -7px 30px 0px #262E32, 14px 14px 40px 0px #101012BF;
     justify-content: space-between;
     
   }
@@ -71,8 +70,7 @@ body{
     padding-right: 1%;
     border-radius: 25px;
     background: #2E333A;
-    box-shadow: -7px -7px 30px 0px #262E32;
-    box-shadow: 14px 14px 40px 0px #101012BF;
+    box-shadow: -7px -7px 30px 0px #262E32, 14px 14px 40px 0px #101012BF;
     justify-content: space-between;
     display: flex;
   }
@@ -86,8 +84,7 @@ body{
     padding-right: 1%;
     border-radius: 25px;
     background: #2E333A;
-    box-shadow: -7px -7px 30px 0px #262E32;
-    box-shadow: 14px 14px 40px 0px #101012BF;
+    box-shadow: -7px -7px 30px 0px #262E32, 14px 14px 40px 0px #101012BF;
     justify-content: space-between;
     display: flex;
   }
@@ -197,6 +194,7 @@ input,textarea{
   font-weight: 500;
   line-height: 130%; /* 23.4px */
 }
+
 select{
   display: flex;
   width: 105%;
