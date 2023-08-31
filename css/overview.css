@@ -2,6 +2,7 @@ body {
     font-family: sans-serif;
     background-color: #2E333A;
     padding-top: 100x;
+    color: white;
   }
   .novbar{
     background-color: #2E333A;
@@ -90,4 +91,28 @@ a{
   background: var(--dark-colour, #2E333A);
   /* NewM T Nav */
   box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000, -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
+}
+.forecast_dailyslp{
+  width: 94%;
+}
+.con-0-1,.con-0-0{
+  background-color: #2E333A;
+  border-radius: 10px;
+  padding: 3%;
+  height: 500px;
+  box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000, -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
+}
+.con-0-1 table{
+  width: 100%;
+}
+.chart{
+  width: 100%;
+  height: 70%;
+}
+label{
+  font-size: 25px;
+  
+}
+.con-0-0 p{
+  font-size: 22px;
 }
