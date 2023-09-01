@@ -92,7 +92,7 @@ a{
   /* NewM T Nav */
   box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000, -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
 }
-.track{
+.track,.track1{
     width: 94%;
   }
   .track td .con{
@@ -110,4 +110,26 @@ a{
   height: 150px;
   max-width: 60%;
   box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000, -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
+  }
+  .track1 td .con-1{
+    background-color: #2E333A;
+  border-radius: 10px;
+  padding: 3%;
+  height: 550px;
+  max-width: 450px;
+  box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000, -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
+  }
+  .track1 td{
+    padding-top:5%;
+  }
+  .track1 .con-1 select{
+    background: none;
+    box-shadow: 3.7338130474090576px 3.7338130474090576px 6.223021507263184px 0px #000 inset, -6.223021507263184px -6.223021507263184px 6.223021507263184px 0px #3B4451 inset; 
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 30%;
+    height: 30px;
+    padding: 3px;
+    padding-left: 10px;
   }
