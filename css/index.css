@@ -45,8 +45,9 @@ body{
   }
   .novbar{
     background-color: #2E333A;
-    max-width:100%;
+    width:100%;
     max-height: 80px;
+    position: fixed;
     border:none;
     padding: 5px 5px 5px 5px;
   }
