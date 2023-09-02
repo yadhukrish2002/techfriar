@@ -116,3 +116,19 @@ label{
 .con-0-0 p{
   font-size: 22px;
 }
+.over .con-2{
+  background-color: #2E333A;
+  border-radius: 10px;
+  padding: 3%;
+  height: 120px;
+  box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000, -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
+}
+.con-2 td{
+  padding-top: 3px;
+  padding-left: 4px;
+}
+.over td, .over tr {
+    padding: 10px;
+    text-align: left;
+    width: calc(100% / 5);
+}
