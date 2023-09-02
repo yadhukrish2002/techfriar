@@ -1,51 +1,56 @@
 body {
-    font-family: sans-serif;
-    background-color: #2E333A;
-    padding-top: 100x;
-    color: white;
-  }
-  .novbar{
-    background-color: #2E333A;
-    max-width:100%;
-    max-height: 80px;
-    border:none;
-    border-radius: 10px;
-    padding: 5px 5px 5px 5px;
-    box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000, -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
-  }
-  .novbar table{
-    width: 100%;
-  }
-  td{
-    padding-left:5px;
-    padding-right: 10px;
-  }
-  
-  
-  .search-container {
-    display: flex;
-    background: none;
-    border-radius: 10px;
-    width: 300px;
-    margin: 20px auto;
-    border: 1px;
-    padding: 5px;
-    box-shadow: 3.7338130474090576px 3.7338130474090576px 6.223021507263184px 0px #000 inset, -6.223021507263184px -6.223021507263184px 6.223021507263184px 0px #3B4451 inset;
+  font-family: sans-serif;
+  background-color: #2E333A;
+  padding-top: 100x;
+  color: white;
 }
+
+.novbar {
+  background-color: #2E333A;
+  max-width: 100%;
+  max-height: 80px;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 5px 5px 5px;
+  box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000, -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
+}
+
+.novbar table {
+  width: 100%;
+}
+
+td {
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+
+.search-container {
+  display: flex;
+  background: none;
+  border-radius: 10px;
+  width: 300px;
+  margin: 20px auto;
+  border: 1px;
+  padding: 5px;
+  box-shadow: 3.7338130474090576px 3.7338130474090576px 6.223021507263184px 0px #000 inset, -6.223021507263184px -6.223021507263184px 6.223021507263184px 0px #3B4451 inset;
+}
+
 .search-input {
-    flex: 1;
-    background: none;
-    border: none;
-    padding: 8px;
+  flex: 1;
+  background: none;
+  border: none;
+  padding: 8px;
 }
 
 .search-button {
-    background: none;
-    color: white;
-    border: none;
-    padding: 8px 12px;
-    cursor: pointer;
+  background: none;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
 }
+
 .container {
   width: 5%;
   display: flex;
@@ -79,7 +84,8 @@ body {
   text-decoration: none;
   color: white;
 }
-a{
+
+a {
   height: 60px;
   width: Hug(50px);
   font-size: 30px;
@@ -91,44 +97,51 @@ a{
   /* NewM T Nav */
   box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000, -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
 }
-.track,.track1{
-    width: 94%;
-  }
-  .track td .con{
-    background-color: #2E333A;
+
+.track,
+.track1 {
+  width: 94%;
+}
+
+.track td .con {
+  background-color: #2E333A;
   border-radius: 10px;
   padding: 2%;
   height: 400px;
   max-width: 60%;
   box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000, -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
-  }
-  .track td .con-0{
-    background-color: #2E333A;
+}
+
+.track td .con-0 {
+  background-color: #2E333A;
   border-radius: 10px;
   padding: 3%;
   height: 150px;
   max-width: 60%;
   box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000, -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
-  }
-  .track1 td .con-1{
-    background-color: #2E333A;
+}
+
+.track1 td .con-1 {
+  background-color: #2E333A;
   border-radius: 10px;
   padding: 3%;
   height: 600px;
   max-width: 450px;
   box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000, -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
-  }
-  .track1 td{
-    padding-top:5%;
-  }
-  .track1 .con-1 select{
-    background: none;
-    box-shadow: 3.7338130474090576px 3.7338130474090576px 6.223021507263184px 0px #000 inset, -6.223021507263184px -6.223021507263184px 6.223021507263184px 0px #3B4451 inset; 
-    border: none;
-    border-radius: 10px;
-    color: white;
-    width: 30%;
-    height: 30px;
-    padding: 3px;
-    padding-left: 10px;
-  }
+}
+
+.track1 td {
+  padding-top: 5%;
+}
+
+.track1 .con-1 select {
+  background: none;
+  box-shadow: 3.7338130474090576px 3.7338130474090576px 6.223021507263184px 0px #000 inset, -6.223021507263184px -6.223021507263184px 6.223021507263184px 0px #3B4451 inset;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  width: 30%;
+  height: 30px;
+  padding: 3px;
+  padding-left: 10px;
+}
