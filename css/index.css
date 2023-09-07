@@ -57,10 +57,34 @@ body{
     background-size: 80% 60% ;
     background-position:center center;
   }
+  @media screen and (max-width:900px) {
+    .container p{
+      font-size: 70%;
+    }
+    .createcontainer p{
+      font-size: 70%;
+    }
+  }
+  @media screen and (max-width:700px) {
+    .container p{
+      font-size: 50%;
+    }
+    .createcontainer p{
+      font-size: 50%;
+    }
+  }
   .container image{
     width: 133.99990844726562px;
     height: 61px;
     top: 145px;
+  }
+  @media screen and (max-width:1485px) {
+    .Account{
+      font-size: 70%;
+    }
+    .Account input,.Account select{
+    height: 70%;
+  }
   }
   .Account {
 	  max-width:25%;
@@ -100,6 +124,11 @@ body{
   }
   .signAccount p{
     text-align:left;
+  }
+  @media screen and(max-width:1340px) {
+    .signAccount input{
+      height: ;
+    }
   }
   
   table{
